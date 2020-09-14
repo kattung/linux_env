@@ -1,0 +1,23 @@
+HOWTO: save setting
+--------------------
+1. Select setting
+   - Edit / Color Scheme
+   - Edit / Select Font...
+
+2. Type below command to save changes,
+   and it will create a _vimrc in C:\Users\<user>\
+
+   :mkvimrc!
+
+3. To furthere add setting,
+   edit C:\Users\<user>\_vimrc
+
+
+Issue: backspace not work
+--------------------
+To allow backspacing over everything in insert mode
+(including automatically inserted indentation, line breaks and start of insert)
+
+:set backspace=indent,eol,start
+or
+:set backspace=2  "compatible with version 5.4 and earlier

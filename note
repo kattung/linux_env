@@ -1,0 +1,6 @@
+vim/        ->  ~/.vim/
+vimrc       ->  ~/.vimrc
+bashrc      ->  ~/.bashrc
+gitconfig   ->  ~/.gitconfig
+
+bin/        ->  ~/bin
