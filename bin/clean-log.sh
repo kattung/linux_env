@@ -13,5 +13,6 @@ if [ -z $1 ]; then
 fi
 
 sed -i 's/\x1b\[[0-9;]*m//g' $file
+sed -i 's/\x1b(B//g' $file
 tr -d '\a\b\r' < $file > tmp
 mv tmp $file
