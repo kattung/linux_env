@@ -83,7 +83,8 @@ nmap ,,n :cn<cr>
 nmap ,,p :cp<cr>
 
 nmap ,a :a<CR> 
-nmap ,e :Ex 
+"nmap ,e :Ex
+nmap ,e :enew<CR>:Ex
 nmap ,c :close<CR> 
 nnoremap <silent> <F3> :Grep<CR>
 nnoremap <silent> ,gr :Rgrep<CR>  
