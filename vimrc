@@ -7,6 +7,8 @@ set t_Co=256
 "colorscheme desert256
 colorscheme desert
 
+set hidden
+
 "highlight ExtraWhitespace ctermbg=red guibg=red
 "match ExtraWhitespace /\s\+$\| \+\ze\t/
 
